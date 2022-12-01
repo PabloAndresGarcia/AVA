@@ -10791,4 +10791,10 @@ textarea.form-control-lg {
   color: white;
 }
 
+footer {
+  background-color: #1d1d1d;
+  padding-top: 0.5em;
+  padding-bottom: 2em;
+}
+
 /*# sourceMappingURL=custom.css.map */
