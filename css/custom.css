@@ -5,6 +5,8 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -10781,6 +10783,12 @@ textarea.form-control-lg {
   min-height: 100vh;
   background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url("../img/reunion.jpg?1") no-repeat center center fixed;
   background-size: cover;
+}
+
+.h3 {
+  font-size: 5em;
+  font-family: "Montserrat", "sans-serif";
+  color: white;
 }
 
 /*# sourceMappingURL=custom.css.map */
