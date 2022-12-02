@@ -10809,4 +10809,8 @@ p {
   width: 50px;
 }
 
+a:link {
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=custom.css.map */
