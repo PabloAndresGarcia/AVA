@@ -7,6 +7,7 @@
  */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -10772,7 +10773,7 @@ textarea.form-control-lg {
   }
 }
 .navbar-nav {
-  --bs-scroll-height: 100px;
+  font-family: "Montserrat", "sans-serif";
 }
 
 .row {
@@ -10780,7 +10781,6 @@ textarea.form-control-lg {
 }
 
 #pagprincipal {
-  min-height: 100vh;
   background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url("../img/reunion.jpg?1") no-repeat center center fixed;
   background-size: cover;
 }
@@ -10795,6 +10795,18 @@ footer {
   background-color: #1d1d1d;
   padding-top: 0.5em;
   padding-bottom: 2em;
+}
+
+p {
+  color: white;
+}
+
+.imgFotter {
+  width: 40px;
+}
+
+.imgFotter:hover {
+  width: 50px;
 }
 
 /*# sourceMappingURL=custom.css.map */

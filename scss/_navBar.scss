@@ -1,3 +1,6 @@
+@import "_fonts";
+@import "_colores";
+
 .navbar-nav{
-    --bs-scroll-height: 100px;
+    font-family: $font-family-base;
 }

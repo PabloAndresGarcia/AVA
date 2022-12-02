@@ -7,7 +7,7 @@
 }
 
 #pagprincipal{
-    min-height: 100vh;
+    // min-height: 100vh;
     background: linear-gradient(rgba(5,7,12,0.75),rgba(5,7,12,0.75)),url("../img/reunion.jpg?1") no-repeat center center fixed;
     background-size: cover;
 }
@@ -21,4 +21,15 @@ footer{
     background-color: $color-secundario;
     padding-top: 0.5em;
     padding-bottom: 2em;
+}
+p{
+    
+    color: $color-primario;
+}
+.imgFotter{
+    
+    width: 40px;
+}
+.imgFotter:hover{
+    width: 50px;
 }
