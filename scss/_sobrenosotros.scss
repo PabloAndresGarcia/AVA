@@ -1,0 +1,43 @@
+@import "_fonts";
+@import "_colores";
+
+
+#pagSobre{
+    // min-height: 100vh;
+    background: linear-gradient(rgba(5,7,12,0.75),rgba(5,7,12,0.75)),url("../img/sobre\ nostros.jpg") no-repeat center center fixed;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 75px;
+}
+
+
+
+.text{
+    color:$color-primario
+    
+}
+
+footer{
+    background-color: $color-secundario;
+    padding-top: 0.5em;
+    padding-bottom: 2em;
+}
+
+.row{
+    padding-top: 0.5px;
+    }
+ 
+p{
+    
+    color: $color-primario;
+}
+.imgFotter{
+    
+    width: 40px;
+}
+.imgFotter:hover{
+    width: 50px;
+}
+a:link {
+    text-decoration: none;
+  }

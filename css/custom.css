@@ -8,6 +8,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -10797,6 +10798,43 @@ footer {
   background-color: #1d1d1d;
   padding-top: 0.5em;
   padding-bottom: 2em;
+}
+
+p {
+  color: white;
+}
+
+.imgFotter {
+  width: 40px;
+}
+
+.imgFotter:hover {
+  width: 50px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+#pagSobre {
+  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url("../img/sobre nostros.jpg") no-repeat center center fixed;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 75px;
+}
+
+.text {
+  color: white;
+}
+
+footer {
+  background-color: #1d1d1d;
+  padding-top: 0.5em;
+  padding-bottom: 2em;
+}
+
+.row {
+  padding-top: 0.5px;
 }
 
 p {
