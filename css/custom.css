@@ -10777,12 +10777,14 @@ textarea.form-control-lg {
 }
 
 .row {
-  padding-top: 15px;
+  padding-top: 0.5px;
 }
 
 #pagprincipal {
   background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url("../img/reunion.jpg?1") no-repeat center center fixed;
   background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 75px;
 }
 
 .h3 {
