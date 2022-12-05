@@ -10823,8 +10823,15 @@ a:link {
   padding-bottom: 75px;
 }
 
+h1, .h1 {
+  color: white;
+  font-size: 3em;
+}
+
 .text {
   color: white;
+  padding-top: 100px;
+  justify-content: center;
 }
 
 footer {
