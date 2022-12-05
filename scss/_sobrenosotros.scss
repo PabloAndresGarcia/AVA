@@ -13,24 +13,28 @@
 
 h1{
     color: $color-primario;
-    font-size: 3em;
+    font-size: 3rem;
+    text-align: center;
+    text-shadow: 2px 2px 5px red;
 }
 .text{
+    
     color:$color-primario;
-    padding-top: 100px;
-    justify-content: center;    
+    padding-top: 7rem;
+    text-align: center;  
+    
+}
+.img-fluid{
+    padding-top: 10px;
 }
 
 footer{
     background-color: $color-secundario;
-    padding-top: 0.5em;
-    padding-bottom: 2em;
+    padding-top: 0.5rem;
+    padding-bottom: 2rem;
 }
 
-.row{
-    padding-top: 0.5px;
-    }
- 
+
 p{
     
     color: $color-primario;
