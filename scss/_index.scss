@@ -12,7 +12,17 @@
     background-size: cover;
     padding-top: 100px;
     padding-bottom: 75px;
-}
+    .img-fluid{
+        padding-bottom: 2em;
+        // width: 360px;
+        // height: 240px;
+    }
+    h3{
+        font-size: 3rem;
+        font-family: $font-family-base;
+        color: $color-primario;
+    }
+} 
 
 .h3{
     font-size: 3rem;

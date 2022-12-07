@@ -9,6 +9,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -10788,6 +10789,14 @@ textarea.form-control-lg {
   padding-top: 100px;
   padding-bottom: 75px;
 }
+#pagprincipal .img-fluid {
+  padding-bottom: 2em;
+}
+#pagprincipal h3, #pagprincipal .h3 {
+  font-size: 3rem;
+  font-family: "Montserrat", "sans-serif";
+  color: white;
+}
 
 .h3 {
   font-size: 3rem;
@@ -10823,6 +10832,17 @@ a:link {
   padding-top: 100px;
   padding-bottom: 75px;
 }
+#pagSobre .img-fluid {
+  padding-bottom: 2em;
+  width: 360px;
+  height: 240px;
+}
+#pagSobre h3, #pagSobre .h3 {
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  text-shadow: 2px 2px 5px red;
+}
 
 h1, .h1 {
   color: white;
@@ -10845,12 +10865,6 @@ h3, .h3 {
   padding-top: 4rem;
   padding-bottom: 4rem;
   text-align: center;
-}
-
-.img-fluid {
-  padding-bottom: 2em;
-  width: 360px;
-  height: 240px;
 }
 
 footer {
@@ -10931,6 +10945,13 @@ a:link {
   100% {
     top: 0em;
   }
+}
+#pagportfolio {
+  min-height: 100vh;
+  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url("../img/sobre nostros.jpg") no-repeat center center fixed;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 75px;
 }
 
 /*# sourceMappingURL=custom.css.map */
