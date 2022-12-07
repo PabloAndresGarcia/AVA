@@ -10841,24 +10841,18 @@ a:link {
   color: white;
   font-size: 3rem;
   text-align: center;
-  text-shadow: 2px 2px 5px red;
 }
-
-h1, .h1 {
+#pagSobre h1, #pagSobre .h1 {
   color: white;
   font-size: 5rem;
   text-align: center;
-  text-shadow: 2px 2px 5px red;
 }
-
-h3, .h3 {
+#pagSobre h3, #pagSobre .h3 {
   color: white;
   font-size: 3rem;
   text-align: center;
-  text-shadow: 2px 2px 5px red;
 }
-
-.text {
+#pagSobre .text {
   margin: auto;
   width: 50%;
   color: white;
@@ -10953,13 +10947,25 @@ a:link {
   padding-top: 100px;
   padding-bottom: 75px;
 }
+#pagportfolio h1, #pagportfolio .h1 {
+  color: white;
+  font-family: "Montserrat", "sans-serif";
+  font-size: 5rem;
+  letter-spacing: 10px;
+}
 #pagportfolio .col {
   padding-top: 7rem;
   padding-left: 2rem;
   padding-right: 2rem;
 }
+#pagportfolio .card-title {
+  color: #1d1d1d;
+}
 #pagportfolio .card-text {
   color: #1d1d1d;
+}
+#pagportfolio .card {
+  background-image: linear-gradient(to right top, #fbc3e3, #ecbce6, #dab6e8, #c5b1ea, #adadea, #9ab3f2, #83b9f7, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
 }
 
 /*# sourceMappingURL=custom.css.map */

@@ -18,23 +18,23 @@
     color: $color-primario;
       font-size: 3rem;
       text-align: center;
-      text-shadow: 2px 2px 5px red;
+      
   }
   
-}
+
 
 
 h1{
     color: $color-primario;
     font-size: 5rem;
     text-align: center;
-    text-shadow: 2px 2px 5px red;
+    
 }
 h3{
   color: $color-primario;
     font-size: 3rem;
     text-align: center;
-    text-shadow: 2px 2px 5px red;
+   
 }
 .text{
     margin: auto;
@@ -46,7 +46,7 @@ h3{
     text-align: center;
     
 }
-
+}
 footer{
     background-color: $color-secundario;
     padding-top: 0.5rem;

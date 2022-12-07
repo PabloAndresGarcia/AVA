@@ -7,12 +7,25 @@
     background-size: cover;
     padding-top: 100px;
     padding-bottom: 75px;
+    h1{
+        color:$color-primario;
+        font-family: $font-family-base;
+        font-size: 5rem;
+        letter-spacing: 10px;
+      
+    }
     .col{
         padding-top: 7rem;
         padding-left: 2rem;
         padding-right: 2rem;
     }
+    .card-title{
+        color: $color-secundario;
+    }
     .card-text{
         color: $color-secundario;
+    }
+    .card{
+        background-image: linear-gradient(to right top, #fbc3e3, #ecbce6, #dab6e8, #c5b1ea, #adadea, #9ab3f2, #83b9f7, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
     }
     }
