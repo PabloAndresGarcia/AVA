@@ -13,6 +13,12 @@
 
 h1{
     color: $color-primario;
+    font-size: 5rem;
+    text-align: center;
+    text-shadow: 2px 2px 5px red;
+}
+h3{
+  color: $color-primario;
     font-size: 3rem;
     text-align: center;
     text-shadow: 2px 2px 5px red;
@@ -28,7 +34,7 @@ h1{
     
 }
 .img-fluid{
-    
+    padding-bottom: 2em;
     width: 360px;
     height: 240px;
 }
@@ -54,79 +60,62 @@ p{
 a:link {
     text-decoration: none;
   }
-  .bn5 {
+  .bn13 {
     
     padding: 0.6em 2em;
     border: none;
     outline: none;
     color: rgb(255, 255, 255);
-    background: #111;
+    background: rgba(17, 17, 17, 0.507);
     cursor: pointer;
     position: relative;
     z-index: 0;
     border-radius: 10px;
   }
   
-  .bn5:before {
-    content: "";
-    background: linear-gradient(
-      45deg,
-      #ff0000,
-      #ff7300,
-      #fffb00,
-      #48ff00,
-      #00ffd5,
-      #002bff,
-      #7a00ff,
-      #ff00c8,
-      #ff0000
-    );
-    position: absolute;
-    top: -2px;
-    left: -2px;
-    background-size: 400%;
-    z-index: -1;
-    filter: blur(5px);
-    width: calc(100% + 4px);
-    height: calc(100% + 4px);
-    animation: glowingbn5 20s linear infinite;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-    border-radius: 10px;
+  .bn13 {
+    display: inline-block;
+    
+    padding: 0.65em 1.6em;
+    border: 3px solid #ffffff;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+    transition: all 0.2s;
+    animation: bn13bouncy 5s infinite linear;
+    position: relative;
   }
   
-  @keyframes glowingbn5 {
+  .bn13:hover {
+    background-color: white;
+    color: #000000;
+  }
+  
+  @keyframes bn13bouncy {
     0% {
-      background-position: 0 0;
+      top: 0em;
+    }
+    40% {
+      top: 0em;
+    }
+    43% {
+      top: -0.9em;
+    }
+    46% {
+      top: 0em;
+    }
+    48% {
+      top: -0.4em;
     }
     50% {
-      background-position: 400% 0;
+      top: 0em;
     }
     100% {
-      background-position: 0 0;
+      top: 0em;
     }
-  }
-  
-  .bn5:active {
-    color: #000;
-  }
-  
-  .bn5:active:after {
-    background: transparent;
-  }
-  
-  .bn5:hover:before {
-    opacity: 1;
-  }
-  
-  .bn5:after {
-    z-index: -1;
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: #191919;
-    left: 0;
-    top: 0;
-    border-radius: 10px;
   }
