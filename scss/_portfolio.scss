@@ -2,9 +2,17 @@
 @import "_colores";
 
 #pagportfolio{
-    min-height: 100vh;
-    background: linear-gradient(rgba(5,7,12,0.75),rgba(5,7,12,0.75)),url("../img/sobre\ nostros.jpg") no-repeat center center fixed;
+     min-height: 100vh;
+    background: linear-gradient(rgba(5,7,12,0.75),rgba(5,7,12,0.75)),url("../img/Portfolio.jpg") no-repeat center center fixed;
     background-size: cover;
     padding-top: 100px;
     padding-bottom: 75px;
-}
+    .col{
+        padding-top: 7rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .card-text{
+        color: $color-secundario;
+    }
+    }
