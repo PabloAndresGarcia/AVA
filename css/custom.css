@@ -10,6 +10,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -10784,7 +10785,7 @@ textarea.form-control-lg {
 
 #pagprincipal {
   min-height: 100vh;
-  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url("../img/sobre nostros.jpg") no-repeat center center fixed;
+  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url("../img/reunion.jpg") no-repeat center center fixed;
   background-size: cover;
   padding-top: 100px;
   padding-bottom: 75px;
@@ -10951,7 +10952,6 @@ a:link {
   color: white;
   font-family: "Montserrat", "sans-serif";
   font-size: 5rem;
-  letter-spacing: 10px;
 }
 #pagportfolio .col {
   padding-top: 7rem;
@@ -10966,6 +10966,14 @@ a:link {
 }
 #pagportfolio .card {
   background-image: linear-gradient(to right top, #fbc3e3, #ecbce6, #dab6e8, #c5b1ea, #adadea, #9ab3f2, #83b9f7, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+#pagcontac {
+  min-height: 100vh;
+  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url("../img/contactanos.jpg") no-repeat center center fixed;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 75px;
 }
 
 /*# sourceMappingURL=custom.css.map */
