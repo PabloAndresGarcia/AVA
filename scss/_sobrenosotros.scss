@@ -13,29 +13,21 @@
       padding-bottom: 2em;
       width: 360px;
       height: 240px;
-  }
-  h3{
+  }  h3{
     color: $color-primario;
       font-size: 3rem;
       text-align: center;
-      
-  }
+  } h1{
+    color: $color-primario;
+    font-size: 5rem;
+    text-align: center;
+}
   
 
 
 
-h1{
-    color: $color-primario;
-    font-size: 5rem;
-    text-align: center;
-    
-}
-h3{
-  color: $color-primario;
-    font-size: 3rem;
-    text-align: center;
-   
-}
+
+
 .text{
     margin: auto;
     width: 50%;

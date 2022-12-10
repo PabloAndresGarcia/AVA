@@ -7,4 +7,18 @@
     background-size: cover;
     padding-top: 100px;
     padding-bottom: 75px;
+    
+    h1{
+        color:$color-primario;
+        font-family: $font-family-base;
+        font-size: 5rem;
+              
+    }
+    
+    .imgContac{
+padding-top: 5rem;
+padding-bottom: 5rem;
+} .imgContac:hover{
+    width: 200px;
+}
 }

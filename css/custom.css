@@ -10848,11 +10848,6 @@ a:link {
   font-size: 5rem;
   text-align: center;
 }
-#pagSobre h3, #pagSobre .h3 {
-  color: white;
-  font-size: 3rem;
-  text-align: center;
-}
 #pagSobre .text {
   margin: auto;
   width: 50%;
@@ -10974,6 +10969,18 @@ a:link {
   background-size: cover;
   padding-top: 100px;
   padding-bottom: 75px;
+}
+#pagcontac h1, #pagcontac .h1 {
+  color: white;
+  font-family: "Montserrat", "sans-serif";
+  font-size: 5rem;
+}
+#pagcontac .imgContac {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+#pagcontac .imgContac:hover {
+  width: 200px;
 }
 
 /*# sourceMappingURL=custom.css.map */
