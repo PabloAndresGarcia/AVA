@@ -11,14 +11,22 @@
     h1{
         color:$color-primario;
         font-family: $font-family-base;
-        font-size: 5rem;
+        font-size: 4rem;
+        border-style: double;
+        
               
     }
     
     .imgContac{
-padding-top: 5rem;
-padding-bottom: 5rem;
+margin-top: 5rem;
+margin-bottom: 5rem;
+border-color: $color-primario;
+border-style: solid;
+border-radius: 2em;
 } .imgContac:hover{
     width: 200px;
+    
+    background-color: rgba(255, 242, 247, 0.274);
+    
 }
 }
